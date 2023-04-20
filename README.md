@@ -2,7 +2,7 @@
 
 ## ABOUT
 
-This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which make use of mostly categorical data to predict the severity of lung cancer by using a [lung cancer dataset](https://github.com/XiaozKang/Lung-Cancer-Prediction/blob/bf248c221f8df127f326844a34e29d066e2b7c55/cancer%20patient%20data%20sets.csv) from [Kaggle](https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link) . For detailed walk-through, please read the source codes in the following order:
+This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which make use of mostly categorical data to predict the severity of lung cancer by using a [lung cancer dataset](cancer patient data sets.csv) from [Kaggle](https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link) . For detailed walk-through, please read the source codes in the following order:
 
 1. [Lung Dataset Cleaning and Preparation](https://github.com/XiaozKang/Lung-Cancer-Prediction/blob/b1cc03041579bd5bad839a664623eefa3e77b987/Lung%20Dataset%20Cleaning%20and%20Preparation.ipynb)
 2. [Exploratory Data Analysis](https://github.com/XiaozKang/Lung-Cancer-Prediction/blob/b1cc03041579bd5bad839a664623eefa3e77b987/Exploratory%20Data%20Analysis.ipynb)
