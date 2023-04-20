@@ -1,4 +1,4 @@
-# Welcome to the prediction of lung cancer severity
+# Welcome to the prediction of the severity of lung cancer
 
 ## ABOUT
 
