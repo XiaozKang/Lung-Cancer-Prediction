@@ -35,16 +35,37 @@ This is a Mini-Project for SC1015 (Introduction to Data Science and Artificial I
 - Hence, it is considered to be very successful when it comes to predicting severity of lung cancer
 
 ## What did we learn from this project?
-
-- Applying multi class decision tree for categorical data with more than 2 unqiue categories
-- Logistic Regression from Sklearn
-- The use of Chi-squared function
-- Function of Github
-- More efficient use of Python
+1. The importance of Data Exploration and Visualisation
+    - Identify patterns, trends, and anomalies in the dataset
+    - Understand data's distribution and relationship between each variables
+2. How to Detect and Remove Outliers
+    - Identify outliers using visualisation methods like boxplot
+    - Remove outliers using IQR method
+3. How to Select the Best Features for Predicting our Target Variable
+    - Splitting of data types: Continuous, Ordinal, Categorical
+    - Using Pearson correlation to narrow down Continuous features
+    - Using Chi-Square Test to narrow down to the top best Ordinal and Categorical features
+    - Using Logistic Regression Model to evaluate the narrowed down features to ensure accuracy for our main model
+4. How to Tune Hyperparameter for Logistic Regression Model
+    - We have learned about hyperparameters such as regularization strength and penalty in Logistic Regression.
+    - Using the GridSearchCV technique to fine tune the hyperparameters to ensure optimality for our selected features.
+5. Applying and Evaluating Multi Class Decision Tree
+    - We learned that Multi Class Decision Tree model is useful for predicting categorical data with more than 2 unqiue categories.
+    - Using Confusion Matrix, Classification Report, and Accuracy Scores as metrics to evaluate our models.
+6. Predicting Outcomes for New Data
+    - We learned how to predict new data using our trained machine learning model using user input.
+7. Logistic Regression from Sklearn
+8. The use of Chi-squared function
+9. Function of Github
+10. More efficient use of Python
 
 ## References
 
 - <https://www.kaggle.com/datasets/thedevastator/cancer-patients-and-air-pollution-a-new-link>
 - <https://www.scribbr.com/statistics/chi-square-distributions/>
+- <https://towardsdatascience.com/how-is-logistic-regression-used-as-a-classification-algorithm-51eaf0d01a78>
+- <https://stackoverflow.com/questions/38077190/how-to-increase-the-model-accuracy-of-logistic-regression-in-scikit-python>
+- <https://scikit-learn.org/stable/modules/grid_search.html>
 - <https://scikit-learn.org/stable/modules/multiclass.html>
 - <https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html>
+- <https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier>
